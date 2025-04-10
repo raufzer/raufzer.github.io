@@ -1,3 +1,46 @@
-baseURL = 'https://example.org/'
+baseURL = "https://johndoe.dev"
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Abd Raouf Zerkhef'
+theme = "hugo-noir"
+
+# URL handling
+relativeURLs = true
+canonifyURLs = true
+
+# Taxonomy configuration
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[params]
+name = "Abd Raouf Zerkhef"
+location = "Algiers, Algeria"
+description = "AI Developer. ML Engineer. I finetune models, build scalable pipelines and automate workflows."
+github = "https://github.com/raufzer"
+github_username = "raufzer"
+email = "zerkhefabdraouf@gmail.com"
+linkedin = "https://www.linkedin.com/in/raufzer"
+linkedin_username = "raufzer"
+
+
+[menu]
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 1
+  [[menu.main]]
+    name = "Experience"
+    url = "/experience/"
+    weight = 2
+  [[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 3
+  [[menu.main]]
+    name = "Blogs"
+    url = "/blogs/"
+    weight = 4
+  [[menu.main]]
+    name = "Contact Me"
+    url = "/contact/"
+    weight = 5
