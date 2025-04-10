@@ -8,11 +8,11 @@
     <language>en-us</language>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>About</title>
+      <title>About Me</title>
       <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/about/</guid>
-      <description>&lt;h1 id=&#34;about-me&#34;&gt;About Me&lt;/h1&gt;&#xA;&lt;p&gt;I&amp;rsquo;m a Data Science &amp;amp; AI student passionate about building solutions using cutting-edge technology. My expertise spans several domains:&lt;/p&gt;&#xA;&lt;h2 id=&#34;education&#34;&gt;Education&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;MSc in Data Science &amp;amp; AI&lt;/strong&gt;, [University Name], 2022-Present&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;BSc in Computer Science&lt;/strong&gt;, [University Name], 2018-2022&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;vision&#34;&gt;Vision&lt;/h2&gt;&#xA;&lt;p&gt;I&amp;rsquo;m dedicated to creating intelligent, user-friendly applications that solve real-world problems. My interdisciplinary approach combines data science, software engineering, and design to build complete solutions.&lt;/p&gt;&#xA;&lt;h2 id=&#34;personal&#34;&gt;Personal&lt;/h2&gt;&#xA;&lt;p&gt;When I&amp;rsquo;m not coding or exploring new AI models, I enjoy [your hobbies/interests]. I&amp;rsquo;m always open to discussing innovative ideas and potential collaborations.&lt;/p&gt;</description>
+      <description>&lt;p&gt;I have been working with ML models, data and AI  for the past 7 years of my life and I’ve got this drive to push boundaries and make things happen. I love the rush of cracking a tough problem, whether it’s coding something new or figuring out how far I can take a wild idea. Building stuff that’s smart and useful? That’s my jam.&lt;/p&gt;&#xA;&lt;p&gt;This portfolio’s me in a nutshell—projects I’ve messed with, blogs where I ramble. I’m into creating, learning, and not settling for boring. If you’re curious, hit me up on any of my socials. Let’s see what’s next.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Blogs</title>
@@ -26,21 +26,21 @@
       <link>http://localhost:1313/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/contact/</guid>
-      <description>&lt;h1 id=&#34;get-in-touch&#34;&gt;Get In Touch&lt;/h1&gt;&#xA;&lt;p&gt;I&amp;rsquo;m always interested in hearing about new projects, opportunities, or just connecting with fellow tech enthusiasts.&lt;/p&gt;&#xA;&lt;h2 id=&#34;contact-information&#34;&gt;Contact Information&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Email&lt;/strong&gt;: &lt;a href=&#34;mailto:your.email@example.com&#34;&gt;your.email@example.com&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;LinkedIn&lt;/strong&gt;: &lt;a href=&#34;https://linkedin.com/in/yourprofile&#34;&gt;Your Name&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;GitHub&lt;/strong&gt;: &lt;a href=&#34;https://github.com/yourusername&#34;&gt;@yourusername&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Twitter&lt;/strong&gt;: &lt;a href=&#34;https://twitter.com/yourhandle&#34;&gt;@yourhandle&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;lets-work-together&#34;&gt;Let&amp;rsquo;s Work Together&lt;/h2&gt;&#xA;&lt;p&gt;If you&amp;rsquo;re interested in collaborating on a project, have a job opportunity, or just want to chat about technology, feel free to reach out through any of the channels above.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;m particularly interested in projects involving:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Data science and machine learning applications&lt;/li&gt;&#xA;&lt;li&gt;AI integration in products&lt;/li&gt;&#xA;&lt;li&gt;Mobile app development&lt;/li&gt;&#xA;&lt;li&gt;Backend system design&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;current-location&#34;&gt;Current Location&lt;/h2&gt;&#xA;&lt;p&gt;Based in [Your City, Country]&lt;br&gt;&#xA;Available for remote work worldwide&lt;/p&gt;</description>
+      <description>&lt;p&gt;You can contact me via Email, Discord, X, or LinkedIn. I usually respond within a day.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Experience</title>
       <link>http://localhost:1313/experience/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/experience/</guid>
-      <description></description>
+      <description>&lt;p&gt;My career path has been defined by a passion for pushing technological boundaries and delivering impactful solutions in Machine Learning, AI, and Software Development.&lt;/p&gt;&#xA;&lt;p&gt;As you&amp;rsquo;ll discover, each role in my journey has been more than just a position—it&amp;rsquo;s been an opportunity to solve complex problems and create meaningful technological advancements. From developing sophisticated financial prediction models at Marva.ai to engineering efficient ML pipelines at Knowledge Solutions India, and pioneering digital marketing strategies at Laugh Out Loud Ventures, each experience has built upon the last.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Projects</title>
       <link>http://localhost:1313/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/</guid>
-      <description></description>
+      <description>&lt;p&gt;Here are some of my recent projects that showcase my skills and interests in technology.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
