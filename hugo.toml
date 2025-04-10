@@ -1,4 +1,4 @@
-baseURL = "https://johndoe.dev"
+baseURL = "https://raufzerif.github.io/"
 languageCode = 'en-us'
 title = 'Abd Raouf Zerkhef'
 theme = "hugo-noir"
@@ -15,7 +15,7 @@ canonifyURLs = true
 [params]
 name = "Abd Raouf Zerkhef"
 location = "Algiers, Algeria"
-description = "Data Science & AI enthusiast combining backend development (Golang/Gin), mobile app creation (Flutter), and UI/UX design to build innovative, impactful solutions."
+description = "Currently studying Data Science & AI with a passion for Generative AI. I combine backend development (Golang/Gin), mobile app creation (Flutter), and UI/UX design to build innovative, impactful solutions."
 github = "https://github.com/raufzer"
 github_username = "raufzer"
 email = "zerkhefabdraouf@gmail.com"
