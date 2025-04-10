@@ -10,7 +10,7 @@ canonifyURLs = true
 # Taxonomy configuration
 [taxonomies]
   category = "categories"
-  tag = "tags"
+  tag = "tags" 
 
 [params]
 name = "Abd Raouf Zerkhef"
@@ -21,7 +21,70 @@ github_username = "raufzer"
 email = "zerkhefabdraouf@gmail.com"
 linkedin = "https://www.linkedin.com/in/raufzer"
 linkedin_username = "raufzer"
+twitter = "https://www.x.com/raufzer"
+twitter_username = "raufzer"
+medium = "https://www.medium.com/@raufzer"
+instagram = "https://instagram.com/raufzer"
+kaggle = "https://www.kaggle.com/johndoe123"
+kaggle_username = "raufzer"
 
+[[params.honors]]
+institution = "Generic College"
+title = "Academic Topper"
+date = "March 2023"
+
+[[params.honors]]
+institution = "Valley High Academy"
+title = "Outstanding Achievement in STEM"
+date = "May 2018"
+
+[[params.certifications]]
+title = "Azure AI Engineering Specialist"
+date = "Dec 2024"
+url = "https://example.com/cert-azure"
+
+[[params.certifications]]
+title = "Google Cloud ML Professional"
+date = "March 2024" 
+url = "https://example.com/cert-gcp"
+
+[[params.experience]]
+company = "Ipsum Solutions"
+role = "Machine Learning Engineer"
+period = "Jun 2022 - Dec 2022"
+description = "Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+responsibilities = [
+    "Sed ut perspiciatis unde omnis iste natus error",
+    "Nemo enim ipsam voluptatem quia voluptas sit",
+    "At vero eos et accusamus et iusto odio dignissimos",
+    "Et harum quidem rerum facilis est et expedita"
+]
+
+[[params.projects]]
+title = "Project Consectetur"
+description = "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam."
+tech = "Golang, TensorFlow, Docker, Redis"
+image = "/images/projects/consectetur.png"
+link = "https://github.com/loremipsum/consectetur"
+
+
+
+[[params.blogs]]
+title = "Lorem Ipsum Systems"
+date = "2025-03-15"
+summary = "Sed ut perspiciatis unde omnis iste natus error sit voluptatem."
+tags = ["Lorem", "Ipsum", "Dolor"]
+content = """
+Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit...
+"""
+link = "https://medium.com/@loremipsum/lorem-systems"
+
+
+[[params.voluntary]]
+role = "Community Lead"
+organization = "Lorem Foundation"
+period = "2020 - Present"
+description = "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis."
 
 [menu]
   [[menu.main]]
