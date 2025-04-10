@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Machine Learning on Abd Raouf Zerkhef</title>
+    <link>http://localhost:1313/tags/machine-learning/</link>
+    <description>Recent content in Machine Learning on Abd Raouf Zerkhef</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 15 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exploring Large Language Models: From Theory to Application</title>
+      <link>http://localhost:1313/blogs/exploring-llms/</link>
+      <pubDate>Fri, 15 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/exploring-llms/</guid>
+      <description>&lt;h1 id=&#34;exploring-large-language-models-from-theory-to-application&#34;&gt;Exploring Large Language Models: From Theory to Application&lt;/h1&gt;&#xA;&lt;p&gt;Large Language Models (LLMs) have transformed the AI landscape, enabling new possibilities across numerous domains. In this post, I&amp;rsquo;ll dive into what makes these models work and how they can be applied to solve real-world problems.&lt;/p&gt;&#xA;&lt;h2 id=&#34;understanding-the-architecture&#34;&gt;Understanding the Architecture&lt;/h2&gt;&#xA;&lt;p&gt;Modern LLMs rely primarily on the transformer architecture, which uses self-attention mechanisms to process input sequences. This allows the model to weigh the importance of different words in context, leading to more nuanced understanding of language.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
