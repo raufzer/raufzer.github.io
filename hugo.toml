@@ -15,7 +15,7 @@ canonifyURLs = true
 [params]
 name = "Abd Raouf Zerkhef"
 location = "Algiers, Algeria"
-description = "AI Developer. ML Engineer. I finetune models, build scalable pipelines and automate workflows."
+description = "Data Science & AI enthusiast combining backend development (Golang/Gin), mobile app creation (Flutter), and UI/UX design to build innovative, impactful solutions."
 github = "https://github.com/raufzer"
 github_username = "raufzer"
 email = "zerkhefabdraouf@gmail.com"
