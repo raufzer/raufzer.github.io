@@ -29,28 +29,28 @@ kaggle = "https://www.kaggle.com/johndoe123"
 kaggle_username = "raufzer"
 
 [[params.honors]]
-institution = "Generic College"
-title = "Academic Topper"
+institution = "Ipsum Solutions"
+title = "Ipsum Solutions"
 date = "March 2023"
 
 [[params.honors]]
-institution = "Valley High Academy"
-title = "Outstanding Achievement in STEM"
+institution = "Ipsum Solutions"
+title = "Ipsum Solutions"
 date = "May 2018"
 
 [[params.certifications]]
-title = "Azure AI Engineering Specialist"
+title = "Ipsum Solutions"
 date = "Dec 2024"
 url = "https://example.com/cert-azure"
 
 [[params.certifications]]
-title = "Google Cloud ML Professional"
+title = "Ipsum Solutions"
 date = "March 2024" 
 url = "https://example.com/cert-gcp"
 
 [[params.experience]]
 company = "Ipsum Solutions"
-role = "Machine Learning Engineer"
+role = "Ipsum Solutions"
 period = "Jun 2022 - Dec 2022"
 description = "Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 responsibilities = [
@@ -81,7 +81,7 @@ link = "https://medium.com/@loremipsum/lorem-systems"
 
 
 [[params.voluntary]]
-role = "Community Lead"
+role = "Ipsum Solutions"
 organization = "Lorem Foundation"
 period = "2020 - Present"
 description = "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis."
