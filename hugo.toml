@@ -15,7 +15,7 @@ canonifyURLs = true
 [params]
 name = "Abd Raouf Zerkhef"
 location = "Algiers, Algeria"
-description = "Currently studying Data Science & AI with a passion for Generative AI. I combine backend development (Golang/Gin), mobile app creation (Flutter), and UI/UX design to build innovative, impactful solutions."
+description = "I'm a Data Science & AI student with a strong passion for Generative AI. I combine backend development (Golang/Gin), mobile app creation (Flutter), and UI/UX design to build innovative and impactful digital solutions."
 github = "https://github.com/raufzer"
 github_username = "raufzer"
 email = "zerkhefabdraouf@gmail.com"
