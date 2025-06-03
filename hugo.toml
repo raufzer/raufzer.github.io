@@ -25,66 +25,61 @@ twitter = "https://www.x.com/raufzer"
 twitter_username = "raufzer"
 medium = "https://www.medium.com/@raufzer"
 instagram = "https://instagram.com/raufzer"
-kaggle = "https://www.kaggle.com/johndoe123"
+kaggle = "https://www.kaggle.com/raufzer"
 kaggle_username = "raufzer"
 
 [[params.honors]]
-institution = "Ipsum Solutions"
-title = "Ipsum Solutions"
-date = "March 2023"
+institution = ""
+title = ""
+date = ""
 
 [[params.honors]]
-institution = "Ipsum Solutions"
-title = "Ipsum Solutions"
-date = "May 2018"
+institution = ""
+title = ""
+date = ""
 
 [[params.certifications]]
-title = "Ipsum Solutions"
-date = "Dec 2024"
-url = "https://example.com/cert-azure"
+title = ""
+date = ""
+url = "
 
 [[params.certifications]]
-title = "Ipsum Solutions"
-date = "March 2024" 
-url = "https://example.com/cert-gcp"
+title = ""
+date = "" 
+url = ""
 
 [[params.experience]]
-company = "Ipsum Solutions"
-role = "Ipsum Solutions"
-period = "Jun 2022 - Dec 2022"
-description = "Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-responsibilities = [
-    "Sed ut perspiciatis unde omnis iste natus error",
-    "Nemo enim ipsam voluptatem quia voluptas sit",
-    "At vero eos et accusamus et iusto odio dignissimos",
-    "Et harum quidem rerum facilis est et expedita"
-]
+company = "RetailSpot"
+role = "Back End Developer"
+period = "May 2025 - Present"
+description = "Working on the AdServer project of RetailSpot, a SaaS platform for retail media and advertising, focused on building scalable and high-performance backend services."
+
+
 
 [[params.projects]]
-title = "Project Consectetur"
-description = "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam."
-tech = "Golang, TensorFlow, Docker, Redis"
-image = "/images/projects/consectetur.png"
-link = "https://github.com/loremipsum/consectetur"
+title = "Flutter Docs – GDG Algiers"
+description = "Contributed detailed documentation on MVVM architecture, routing, and state management in Flutter for GDG Algiers Docs. Helped Flutter developers adopt clean, scalable patterns in production apps."
+tech = "Flutter, Dart, Markdown, Git"
+image = "/assets/images/gdg-docs.png"
+link = ""
 
 
 
 [[params.blogs]]
-title = "Lorem Ipsum Systems"
-date = "2025-03-15"
-summary = "Sed ut perspiciatis unde omnis iste natus error sit voluptatem."
-tags = ["Lorem", "Ipsum", "Dolor"]
+title = ""
+date = ""
+summary = ""
+tags = ["", "", ""]
 content = """
-Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit...
 """
-link = "https://medium.com/@loremipsum/lorem-systems"
+link = ""
 
 
 [[params.voluntary]]
-role = "Ipsum Solutions"
-organization = "Lorem Foundation"
-period = "2020 - Present"
-description = "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis."
+role = ""
+organization = ""
+period = ""
+description = ""
 
 [menu]
   [[menu.main]]
