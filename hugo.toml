@@ -41,7 +41,7 @@ date = ""
 [[params.certifications]]
 title = ""
 date = ""
-url = "
+url = ""
 
 [[params.certifications]]
 title = ""
@@ -60,7 +60,7 @@ description = "Working on the AdServer project of RetailSpot, a SaaS platform fo
 title = "Flutter Docs – GDG Algiers"
 description = "Contributed detailed documentation on MVVM architecture, routing, and state management in Flutter for GDG Algiers Docs. Helped Flutter developers adopt clean, scalable patterns in production apps."
 tech = "Flutter, Dart, Markdown, Git"
-image = "/assets/images/gdg-docs.png"
+image = "/images/gdg-docs.png"
 link = ""
 
 
