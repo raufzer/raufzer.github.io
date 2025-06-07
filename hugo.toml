@@ -50,7 +50,7 @@ url = ""
 
 [[params.experience]]
 company = "RetailSpot"
-role = "Back End Developer"
+role = "Software Developer"
 period = "May 2025 - Present"
 description = "Working on the AdServer project of RetailSpot, a SaaS platform for retail media and advertising, focused on building scalable and high-performance backend services."
 
