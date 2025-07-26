@@ -75,7 +75,7 @@ role = ""
 organization = ""
 period = ""
 description = ""
-
+ 
 [menu]
   [[menu.main]]
     name = "About"
