@@ -56,7 +56,7 @@ title = "Flutter Docs – GDG Algiers"
 description = "Contributed detailed documentation on MVVM architecture, routing, and state management in Flutter for GDG Algiers Docs. Helped Flutter developers adopt clean, scalable patterns in production apps."
 tech = "Astro, Starlight, MDX, Flutter, Dart, Git"
 image = "/images/gdg-docs.png"
-link = ""
+link = "docs.gdgalgiers.dev/"
 
 
 
