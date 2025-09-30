@@ -45,13 +45,11 @@ const SkillsList = () => {
     "Mobile Development": [
       "Cross-platform apps with Flutter",
       "Native Android & iOS development",
-      "Mobile UI/UX implementation",
       "API integration & state management",
     ],
     "AI & Data Science": [
       "Machine learning model development",
       "Data analysis & visualization",
-      "Predictive analytics systems",
       "AI-powered application features",
     ],
   };
