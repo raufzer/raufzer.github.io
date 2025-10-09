@@ -1,0 +1,42 @@
+---
+import Pattern from "@/components/ui/pattern.astro";
+import PageLayout from "@/layouts/page-layout.astro";
+
+import Box from "@/components/box/index.astro";
+import BoxHeader from "@/components/box/header.astro";
+import BoxTitle from "@/components/box/title.astro";
+import { getCollection } from "astro:content";
+import ProjectItem from "@/components/sections/projects/project-item.astro";
+
+const projects = await getCollection("projects");
+
+const coreProjects = projects.filter(project => project.data.type === "core");
+const sideProjects = projects.filter(project => project.data.type === "side");
+---
+
+<PageLayout
+  description="Showcasing my software development projects, from web applications to AI experiments and technical solutions."
+  title="Abd Raouf Zerkhef - Projects"
+>
+  <Pattern />
+  <Box>
+    <BoxHeader>
+      <BoxTitle>Featured Projects</BoxTitle>
+    </BoxHeader>
+    {coreProjects.map(item => <ProjectItem project={item} />)}
+  </Box>
+
+  {
+    sideProjects.length > 0 && (
+      <Pattern />
+      <Box>
+        <BoxHeader>
+          <BoxTitle>Experiments & Learning</BoxTitle>
+        </BoxHeader>
+        {sideProjects.map(item => <ProjectItem project={item} />)}
+      </Box>
+    )
+  }
+ 
+  <Pattern />
+</PageLayout>
