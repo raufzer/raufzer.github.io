@@ -9,10 +9,10 @@ import ProjectItem from "@/components/sections/projects/project-item.astro";
 
 const projects = await getCollection("projects");
 
+const aiProjects = projects.filter(project => project.data.type === "ai");
+const fullStackProjects = projects.filter(project => project.data.type === "fullstack");
 const mobileProjects = projects.filter(project => project.data.type === "mobile");
 const backendProjects = projects.filter(project => project.data.type === "backend");
-const toolsProjects = projects.filter(project => project.data.type === "tools");
-const aiProjects = projects.filter(project => project.data.type === "ai");
 const communityProjects = projects.filter(project => project.data.type === "community");
 ---
 
@@ -21,14 +21,36 @@ const communityProjects = projects.filter(project => project.data.type === "comm
   title="Abd Raouf Zerkhef - Projects"
 >
   <Pattern />
-  
-  {mobileProjects.length > 0 && (
+    {aiProjects.length > 0 && (
+    <>
+      <Pattern />
+      <Box>
+        <BoxHeader>
+          <BoxTitle>Artificial Intelligence & Data Science ({aiProjects.length})</BoxTitle>
+        </BoxHeader>
+        {aiProjects.map(item => <ProjectItem project={item} />)}
+      </Box>
+    </>
+  )}
+  {fullStackProjects.length > 0 && (
     <Box>
       <BoxHeader>
-        <BoxTitle>Mobile Applications ({mobileProjects.length})</BoxTitle>
+        <BoxTitle>Full-Stack Development ({fullStackProjects.length})</BoxTitle>
       </BoxHeader>
-      {mobileProjects.map(item => <ProjectItem project={item} />)}
+      {fullStackProjects.map(item => <ProjectItem project={item} />)}
     </Box>
+  )}
+
+    {mobileProjects.length > 0 && (
+    <>
+      <Pattern />
+      <Box>
+        <BoxHeader>
+          <BoxTitle>Mobile Application Development ({mobileProjects.length})</BoxTitle>
+        </BoxHeader>
+        {mobileProjects.map(item => <ProjectItem project={item} />)}
+      </Box>
+    </>
   )}
 
   {backendProjects.length > 0 && (
@@ -36,33 +58,9 @@ const communityProjects = projects.filter(project => project.data.type === "comm
       <Pattern />
       <Box>
         <BoxHeader>
-          <BoxTitle>Backend & APIs ({backendProjects.length})</BoxTitle>
+          <BoxTitle>Backend Development & APIs({backendProjects.length})</BoxTitle>
         </BoxHeader>
         {backendProjects.map(item => <ProjectItem project={item} />)}
-      </Box>
-    </>
-  )}
-
-  {toolsProjects.length > 0 && (
-    <>
-      <Pattern />
-      <Box>
-        <BoxHeader>
-          <BoxTitle>Developer Tools ({toolsProjects.length})</BoxTitle>
-        </BoxHeader>
-        {toolsProjects.map(item => <ProjectItem project={item} />)}
-      </Box>
-    </>
-  )}
-
-  {aiProjects.length > 0 && (
-    <>
-      <Pattern />
-      <Box>
-        <BoxHeader>
-          <BoxTitle>AI & Machine Learning ({aiProjects.length})</BoxTitle>
-        </BoxHeader>
-        {aiProjects.map(item => <ProjectItem project={item} />)}
       </Box>
     </>
   )}
@@ -72,12 +70,13 @@ const communityProjects = projects.filter(project => project.data.type === "comm
       <Pattern />
       <Box>
         <BoxHeader>
-          <BoxTitle>Community & Open Source ({communityProjects.length})</BoxTitle>
+          <BoxTitle>Open Source & Developer Community ({communityProjects.length})</BoxTitle>
         </BoxHeader>
         {communityProjects.map(item => <ProjectItem project={item} />)}
       </Box>
     </>
   )}
+
  
   <Pattern />
 </PageLayout>

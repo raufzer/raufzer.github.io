@@ -20,12 +20,11 @@ interface Props {
   title: string;
   technologies: string[];
   sourceCode?: string;
-  preview?: string;
   image?: string;
   description: string;
 }
 
-const { title, technologies, description, preview, sourceCode, image } =
+const { title, technologies, description, sourceCode, image } =
   Astro.props;
 
 const githubIcon = SOCIAL_LINKS.find(link => link.name === "GitHub")?.icon;
@@ -52,20 +51,6 @@ const githubIcon = SOCIAL_LINKS.find(link => link.name === "GitHub")?.icon;
               >
                 Source
                 <span class="size-3" set:html={githubIcon} />
-              </LinkBtn>
-            )
-          }
-          {
-            preview && (
-              <LinkBtn
-                ariaLabel="Deployed App"
-                target="_blank"
-                className="text-xs"
-                variant="default"
-                href={preview}
-              >
-                Preview
-                <ExternalLink className="size-3" />
               </LinkBtn>
             )
           }

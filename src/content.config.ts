@@ -26,7 +26,7 @@ const projects = defineCollection({
       image: z.string().optional(),
       sourceCode: z.string().optional(),
       preview: z.string().optional(),
-      type: z.enum(["mobile", "backend", "tools", "ai", "community"]),
+      type: z.enum(["fullstack","mobile", "backend", "ai", "community"]),
     }),
 });
 
