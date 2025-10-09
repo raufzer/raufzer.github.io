@@ -1,7 +1,6 @@
 ---
 import Pattern from "@/components/ui/pattern.astro";
 import PageLayout from "@/layouts/page-layout.astro";
-
 import Box from "@/components/box/index.astro";
 import BoxHeader from "@/components/box/header.astro";
 import BoxTitle from "@/components/box/title.astro";
@@ -10,33 +9,75 @@ import ProjectItem from "@/components/sections/projects/project-item.astro";
 
 const projects = await getCollection("projects");
 
-const coreProjects = projects.filter(project => project.data.type === "core");
-const sideProjects = projects.filter(project => project.data.type === "side");
+const mobileProjects = projects.filter(project => project.data.type === "mobile");
+const backendProjects = projects.filter(project => project.data.type === "backend");
+const toolsProjects = projects.filter(project => project.data.type === "tools");
+const aiProjects = projects.filter(project => project.data.type === "ai");
+const communityProjects = projects.filter(project => project.data.type === "community");
 ---
 
 <PageLayout
-  description="Showcasing my software development projects, from web applications to AI experiments and technical solutions."
+  description="Showcasing my software development projects across mobile, backend, AI, tools, and community contributions."
   title="Abd Raouf Zerkhef - Projects"
 >
   <Pattern />
-  <Box>
-    <BoxHeader>
-      <BoxTitle>Featured Projects</BoxTitle>
-    </BoxHeader>
-    {coreProjects.map(item => <ProjectItem project={item} />)}
-  </Box>
+  
+  {mobileProjects.length > 0 && (
+    <Box>
+      <BoxHeader>
+        <BoxTitle>Mobile Applications ({mobileProjects.length})</BoxTitle>
+      </BoxHeader>
+      {mobileProjects.map(item => <ProjectItem project={item} />)}
+    </Box>
+  )}
 
-  {
-    sideProjects.length > 0 && (
+  {backendProjects.length > 0 && (
+    <>
       <Pattern />
       <Box>
         <BoxHeader>
-          <BoxTitle>Experiments & Learning</BoxTitle>
+          <BoxTitle>Backend & APIs ({backendProjects.length})</BoxTitle>
         </BoxHeader>
-        {sideProjects.map(item => <ProjectItem project={item} />)}
+        {backendProjects.map(item => <ProjectItem project={item} />)}
       </Box>
-    )
-  }
+    </>
+  )}
+
+  {toolsProjects.length > 0 && (
+    <>
+      <Pattern />
+      <Box>
+        <BoxHeader>
+          <BoxTitle>Developer Tools ({toolsProjects.length})</BoxTitle>
+        </BoxHeader>
+        {toolsProjects.map(item => <ProjectItem project={item} />)}
+      </Box>
+    </>
+  )}
+
+  {aiProjects.length > 0 && (
+    <>
+      <Pattern />
+      <Box>
+        <BoxHeader>
+          <BoxTitle>AI & Machine Learning ({aiProjects.length})</BoxTitle>
+        </BoxHeader>
+        {aiProjects.map(item => <ProjectItem project={item} />)}
+      </Box>
+    </>
+  )}
+
+  {communityProjects.length > 0 && (
+    <>
+      <Pattern />
+      <Box>
+        <BoxHeader>
+          <BoxTitle>Community & Open Source ({communityProjects.length})</BoxTitle>
+        </BoxHeader>
+        {communityProjects.map(item => <ProjectItem project={item} />)}
+      </Box>
+    </>
+  )}
  
   <Pattern />
 </PageLayout>
