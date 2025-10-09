@@ -26,10 +26,7 @@ const projects = defineCollection({
       image: z.string().optional(),
       sourceCode: z.string().optional(),
       preview: z.string().optional(),
-      type: z.union([
-        z.literal("core"),
-        z.literal("side"),
-      ])
+      type: z.enum(["mobile", "backend", "tools", "ai", "community"]),
     }),
 });
 
