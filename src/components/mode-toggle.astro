@@ -20,42 +20,35 @@ import { cn, buttonVariants } from "@/lib/utils";
   />
   <span class="sr-only">Toggle theme</span>
 </button>
-<script is:inline>
-  // Check for theme preference in localStorage or system preference
-  const getThemePreference = () => {
-    if (typeof localStorage !== "undefined" && localStorage.getItem("theme")) {
-      return localStorage.getItem("theme");
-    }
-    return window.matchMedia("(prefers-color-scheme: dark)").matches
-      ? "dark"
-      : "light";
-  };
 
-  // Set theme on document and in localStorage
-  const setThemeAppearance = theme => {
-    if (theme === "dark") {
-      document.documentElement.classList.add("dark");
-    } else {
-      document.documentElement.classList.remove("dark");
-    }
-    localStorage.setItem("theme", theme);
-  };
-
-  // Apply the theme immediately to avoid flash
-  const theme = getThemePreference();
-  setThemeAppearance(theme);
-
-  document.addEventListener("astro:page-load", () => {
+<script>
+  // Only handle the toggle functionality, NOT theme initialization
+  function setupThemeToggle() {
     const toggleButton = document.getElementById("theme-toggle");
+    
+    if (!toggleButton) return;
 
-    // Toggle theme function
     const toggleMode = () => {
       const isDarkMode = document.documentElement.classList.contains("dark");
       const newTheme = isDarkMode ? "light" : "dark";
-      setThemeAppearance(newTheme);
+      
+      // Toggle theme
+      document.documentElement.classList.toggle("dark", newTheme === "dark");
+      
+      // Save to localStorage
+      if (typeof localStorage !== "undefined") {
+        localStorage.setItem("theme", newTheme);
+      }
     };
 
-    // Add click event listener
-    toggleButton?.addEventListener("click", toggleMode);
-  });
+    // Remove any existing listeners to prevent duplicates
+    toggleButton.removeEventListener("click", toggleMode);
+    toggleButton.addEventListener("click", toggleMode);
+  }
+
+  // Setup toggle functionality
+  setupThemeToggle();
+  
+  // Re-setup after navigation
+  document.addEventListener("astro:page-load", setupThemeToggle);
 </script>
