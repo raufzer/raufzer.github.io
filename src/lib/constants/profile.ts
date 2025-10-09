@@ -5,9 +5,10 @@ export const PROFILE_INFO = {
   displayName: "Abd Raouf Zerkhef",
   email: "zerkhefabdraouf@gmail.com",
   about: `
-I'm a **software developer** specializing in both **backend systems** and **mobile applications**, currently pursuing studies in **Artificial Intelligence & Data Science**.  
-With hands-on experience in **Go (Gin)** and **Dart (Flutter)**, I focus on building scalable APIs, high-performance platforms, and user-friendly mobile solutions.  
+I'm a **software developer** specializing in **backend systems** and **mobile applications**, currently pursuing an engineering degree in **Artificial Intelligence & Data Science**.
 
-Fueled by curiosity and creativity, I aspire to specialize in **Generative AI**, combining engineering expertise with innovation to create technologies that make a lasting impact.  
-`,
+With hands-on experience building production systems in **Go (Gin)** and mobile apps with **Dart (Flutter)**, I focus on scalable APIs, high-performance platforms, and seamless user experiences.
+
+Driven by curiosity and a passion for innovation, I'm actively building expertise in **Generative AI**—combining solid engineering fundamentals with cutting-edge AI to create impactful, intelligent solutions.
+  `,
 } as const;
